@@ -11,6 +11,9 @@ LABraDT is an open-source framework for developing modular asset administration 
 
 - [Why LABraDT?](#why-labradt)
 - [Getting Started](#getting-started)
+  - [Architecture](#architecture)
+  - [Run LABraDT](#run_labradt)
+  - [Quickstart](#quickstart)
 - [Repository Overview](#repository_overview)
   
 ## Why LABraDT?
