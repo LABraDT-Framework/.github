@@ -1,6 +1,6 @@
 <!-- Include project logo -->
 <p align="center">
-  <img src="../docs/images/LABraDT_HG.png" alt="LABraDT Logo" width="300">
+  <img src="../docs/images/LABraDT_HG.png" alt="LABraDT Logo" width="200">
 </p>
 
 # LABraDT - The Rapid Application Development Toolkit for Digital Twins
