@@ -3,7 +3,7 @@
   <img src="../docs/images/LABraDT_HG.png" alt="LABraDT Logo" width="200">
 </p>
 
-# LABraDT - The Rapid Application Development Toolkit for Digital Twins
+# LABraDT: The Rapid Application Development Toolkit for Digital Twins
 
 LABraDT is an open-source framework for developing modular asset administration shell (AAS)-based digital twin applications with reusable components and abstracted cyber-physical production systems (CPPS) connectivity.
 
