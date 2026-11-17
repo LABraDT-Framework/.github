@@ -11,11 +11,10 @@ LABraDT is an open-source framework for developing modular asset administration 
 
 - [Why LABraDT?](#why-labradt)
 - [Getting Started](#getting-started)
-  - [Architecture](#architecture)
-  - [Run LABraDT](#run_labradt)
-  - [Quickstart](#quickstart)
-- [Repository Overview](#repository_overview)
-  
+  - [Architecture](#architecture) 
+  - [Repository Overview](#repository-overview)  
+  - [Quick Start](#quick-start)
+
 ## Why LABraDT?
 
 Digital twins are becoming an increasingly important technology for understanding, designing, operating, and managing cyber-physical production systems. 
@@ -40,17 +39,50 @@ With LABraDT, developers can:
 
 ### Architecture
 
+LABraDT follows a modular, service-oriented architecture. 
+The LABraDT Core consisting of four main components: UI, Service Execution, Engine and Gateway. 
+Each component encapsulates specific functionality and communicates with the others through defined interfaces and standardized communication mechanisms.
+
 <!-- Include architecture overview -->
+<p align="left">
+  <img src="../docs/images/LAbraDT_Architecture.png" alt="LABraDT Architecture" width="900">
+</p>
 
-### Run LABraDT
+#### LABraDT UI 
 
-<!-- Include how to get a container running -->
+The UI provides the graphical user interface for configuring and operating LABraDT. 
+It consists of a web frontend (HTML/JavaScript), which communicates with a Python-based UI controller implemented using FastAPI. 
+Communication is handled via REST and Server-Sent Events (SSE). 
+The UI controller coordinates service registration, rule configuration, engine operation (start/stop) and machine configuration.
+
+#### Service Execution
+
+The Service Execution component manages and executes external services. 
+Its Service Manager provides a service registry and handles service invocation. 
+The component supports different execution environments through the IRuntimeProvider interface, including scripts, containerized applications and external services accessible.
+Services are triggered by the Engine and return their results through REST interfaces.
+
+#### LABraDT Engine
+
+The Engine provides the central logic for executing rules and interacting with AAS-based data models. 
+Its Rule Engine integrates the AAS submodels CPS_SM (providing live values) and Rules_SM (containing rule definitions). 
+The ConditionEvaluator interface enables the evaluation of rule conditions using configurable operators.
+The Engine communicates with the Gateway to retrieve live machine values and write updated values. 
+An optional BaSyx AAS Server can be connected to provide AAS infrastructure.
+
+####  Gateway
+
+The Gateway abstracts connectivity to physical machines and production systems. 
+Its Gateway Framework provides REST and SSE interfaces for accessing AAS submodels and exchanging machine data. 
+The interfaces ICPPSAdapter and ITranslationLayer decouple the framework from specific communication protocols and production system implementations. 
+This enables connectivity to different machines and communication technologies.
+
+### Repository Overview
+
+<!-- Include links to main repos -->
 
 ### Quick Start
 
-<!-- Add a minimal, tested example -->
+<!-- Include how to get a container running -->
 
-## Repository Overview
-
-<!-- Include project overview -->
 
