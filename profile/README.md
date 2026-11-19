@@ -117,6 +117,8 @@ The following repositories provide service to be used within LABraDT:
 
 ### Quick Start
 
+> **_Release Note (v0.9):_** LABraDT is currently available as pre-release. The software is still under active development. Functionality, interfaces and documentation may change in future versions. Some features may be incomplete or subject to change. We welcome feedback, bug reports and contributions to help improve the framework.
+
 The [Download](https://github.com/orgs/LABraDT-Framework/packages) does provide a full build of LABraDT, including the LABraDT Core and all available Plugins. 
 
 <!-- Include how to get a container running -->
