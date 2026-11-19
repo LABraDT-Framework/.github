@@ -113,11 +113,7 @@ The following repositories implement SDKs with LABraDT-specific functions for se
 
 ### Quick Start
 
-#### Download
+The [Download](https://github.com/orgs/LABraDT-Framework/packages) does provide a full build of LABraDT, including the LABraDT Core and all available Plugins. 
 
-The provisioned build contains a full version of LABraDT, including the LABraDT Core and all available Plugins. 
-[Download LABraDT](https://github.com/orgs/LABraDT-Framework/packages)
-
-#### Start LABraDT
 <!-- Include how to get a container running -->
 
