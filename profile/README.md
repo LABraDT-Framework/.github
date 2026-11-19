@@ -55,9 +55,9 @@ It consists of a web frontend (HTML/JavaScript), which communicates with a Pytho
 Communication is handled via REST and Server-Sent Events (SSE). 
 The UI controller coordinates service registration, rule configuration, engine operation (start/stop) and machine configuration.
 
-#### Service Execution
+#### LABraDT Runtime
 
-The Service Execution component manages and executes external services. 
+The Runtime component manages and executes external services. 
 Its Service Manager provides a service registry and handles service invocation. 
 The component supports different execution environments through the IRuntimeProvider interface, including scripts, containerized applications and external services accessible.
 Services are triggered by the Engine and return their results through REST interfaces.
@@ -70,7 +70,7 @@ The ConditionEvaluator interface enables the evaluation of rule conditions using
 The Engine communicates with the Gateway to retrieve live machine values and write updated values. 
 An optional BaSyx AAS Server can be connected to provide AAS infrastructure.
 
-####  Gateway
+####  LABraDT Gateway
 
 The Gateway abstracts connectivity to physical machines and production systems. 
 Its Gateway Framework provides REST and SSE interfaces for accessing AAS submodels and exchanging machine data. 
