@@ -79,6 +79,8 @@ This enables connectivity to different machines and communication technologies.
 
 ### Repository Overview
 
+The repositories are structured into the LABraDT Core, that implements required components that are included in every build, and optional components, implemented in Plugins.
+
 #### LABraDT Core
 
 The following repositories build the LABraDT Core:
@@ -95,19 +97,27 @@ The following repositories implement service runtimes to extend the LABraDT Core
 - [LABraDT-plugin-Lua](https://github.com/LABraDT-Framework/LABraDT-plugin-Lua)
 <!-- [LABraDT-plugin-Python](https://github.com/LABraDT-Framework/LABraDT-plugin-Python)-->
 
-The following repositories implement gateways to establish CPPS connections and extend the LABraDT Core:
+The following repositories implement gateways to establish CPS connections:
 - [LABraDT-plugin-MQTT](https://github.com/LABraDT-Framework/LABraDT-plugin-MQTT)
   
-<!-- #### LABraDT SDK -->
+<!-- 
+#### LABraDT SDK 
 
+The following repositories implement SDKs with LABraDT-specific functions for service development:
+- https://github.com/LABraDT-Framework/LABraDT-sdk-Lua
+- https://github.com/LABraDT-Framework/LABraDT-sdk-Python
 
+-->
 
 <!-- LABraDT Services -->
 
 ### Quick Start
 
-<!-- Include how to get a container running -->
+#### Download
+
+The provisioned build contains a full version of LABraDT, including the LABraDT Core and all available Plugins. 
 [Download LABraDT](https://github.com/orgs/LABraDT-Framework/packages)
 
-
+#### Start LABraDT
+<!-- Include how to get a container running -->
 
