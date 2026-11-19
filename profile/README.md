@@ -43,7 +43,10 @@ LABraDT follows a modular, service-oriented architecture.
 The LABraDT Core consisting of four main components: UI, Service Execution, Engine and Gateway. 
 Each component encapsulates specific functionality and communicates with the others through defined interfaces and standardized communication mechanisms.
 
-
+<!-- Include architecture overview -->
+<p align="left">
+  <img src="../docs/images/LAbraDT_Architecture.png" alt="LABraDT Architecture" width="900">
+</p>
 
 #### LABraDT UI 
 
