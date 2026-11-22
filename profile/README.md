@@ -120,10 +120,18 @@ The following repositories provide service to be used within LABraDT:
 
 ### How to Build
 
-LABraDT should be built from the [LABraDT-core-UI](https://github.com/LABraDT-Framework/LABraDT-core-UI) repository. 
+LABraDT is built from the [LABraDT-core-UI](https://github.com/LABraDT-Framework/LABraDT-core-UI) repository. 
 This repository serves as the central entry point for building LABraDT and contains links to all other required core components.
 
-Since LABraDT is developed in Java, make sure you have a compatible JDK installed before starting the build process.
+#### Dependencies
+
+|Product|Recommended Version|
+|---|---|
+| Java | JDK 21 | 
+| Python | Python 3.12 | 
+| Maven | Maven 3.8  |
+
+#### Next Steps
 Clone the repository and follow the build instructions within the repository. 
 Ensure that all required components are available and properly linked before initiating the build.
 
