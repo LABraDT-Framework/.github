@@ -80,6 +80,11 @@ Its Gateway Framework provides REST and SSE interfaces for accessing AAS submode
 The interfaces ICPPSAdapter and ITranslationLayer decouple the framework from specific communication protocols and production system implementations. 
 This enables connectivity to different machines and communication technologies.
 
+
+#### LABraDT Plugins
+
+The core functionality can be extended through plugins, with additional plugins currently under development.
+
 ### Repository Overview
 
 The repositories are structured into the LABraDT Core, that implements required components that are included in every build, and optional components, implemented in Plugins.
