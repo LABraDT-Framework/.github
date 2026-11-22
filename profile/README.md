@@ -12,7 +12,8 @@ LABraDT is an open-source framework for developing modular asset administration 
 - [Why LABraDT?](#why-labradt)
 - [Getting Started](#getting-started)
   - [Architecture](#architecture) 
-  - [Repository Overview](#repository-overview)  
+  - [Repository Overview](#repository-overview)
+  - [How to Build](#how-to-build)
   - [Quick Start](#quick-start)
 
 ## Why LABraDT?
@@ -36,6 +37,8 @@ With LABraDT, developers can:
 - **Deploy, test and validate services** in a controlled environment.
 
 ## Getting Started
+
+> **_Release Note (v0.9):_** LABraDT is currently available as pre-release. The software is still under active development. Functionality, interfaces and documentation may change in future versions. Some features may be incomplete or subject to change. We welcome feedback, bug reports and contributions to help improve the framework.
 
 ### Architecture
 
@@ -115,11 +118,24 @@ The following repositories provide service to be used within LABraDT:
 - [LABraDT-service-xxx]()
 -->
 
+### How to Build
+
+LABraDT should be built from the [LABraDT-core-UI](https://github.com/LABraDT-Framework/LABraDT-core-UI) repository. 
+This repository serves as the central entry point for building LABraDT and contains links to all other required core components.
+
+Since LABraDT is developed in Java, make sure you have a compatible JDK installed before starting the build process.
+Clone the repository and follow the build instructions within the repository. 
+Ensure that all required components are available and properly linked before initiating the build.
+
 ### Quick Start
 
 > **_Release Note (v0.9):_** LABraDT is currently available as pre-release. The software is still under active development. Functionality, interfaces and documentation may change in future versions. Some features may be incomplete or subject to change. We welcome feedback, bug reports and contributions to help improve the framework.
 
-The [Download](https://github.com/orgs/LABraDT-Framework/packages) does provide a full build of LABraDT, including the LABraDT Core and all available Plugins. 
+A complete build of LABraDT, including LABraDT Core and all available plugins, will be provided with the first stable release.
 
-<!-- Include how to get a container running -->
+For this pre-release, you will need to build the projects yourself. See [How to Build](#how-to-build) for instructions.
+
+<!-- The [Download](https://github.com/orgs/LABraDT-Framework/packages) does provide a full build of LABraDT, including the LABraDT Core and all available Plugins. 
+
+Include how to get a container running -->
 
