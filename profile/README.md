@@ -101,9 +101,10 @@ The following repositories build the LABraDT Core:
 
 The following repositories implement service runtimes to extend the LABraDT Core:
 <!-- - [LABraDT-plugin-Docker](https://github.com/LABraDT-Framework/LABraDT-plugin-Docker) -->
-- [LABraDT-plugin-REST](https://github.com/LABraDT-Framework/LABraDT-plugin-REST)
-- [LABraDT-plugin-Lua](https://github.com/LABraDT-Framework/LABraDT-plugin-Lua)
 - [LABraDT-plugin-Python](https://github.com/LABraDT-Framework/LABraDT-plugin-Python)
+- [LABraDT-plugin-Lua](https://github.com/LABraDT-Framework/LABraDT-plugin-Lua)
+- [LABraDT-plugin-REST](https://github.com/LABraDT-Framework/LABraDT-plugin-REST)
+- [LABraDT-plugin-Bash](https://github.com/LABraDT-Framework/LABraDT-plugin-Bash)
 
 The following repositories implement gateways to establish CPS connections:
 - [LABraDT-plugin-MQTT](https://github.com/LABraDT-Framework/LABraDT-plugin-MQTT)
