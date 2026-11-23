@@ -108,6 +108,7 @@ The following repositories implement service runtimes to extend the LABraDT Core
 
 The following repositories implement gateways to establish CPS connections:
 - [LABraDT-plugin-MQTT](https://github.com/LABraDT-Framework/LABraDT-plugin-MQTT)
+- [LABraDT-plugin-OPCUA {private}](https://github.com/LABraDT-Framework/LABraDT-plugin-OPCUA)
 
 <!-- 
 #### LABraDT SDK 
